@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coin Toss!</title>
+  </head>
+
+  <body>
+    <h1>Coin Toss</h1>
+    <p> <%= heads ? 'heads' : 'tails' %> </p>
+    <form action="/toss" method="POST">
+      <button type="submit">Toss the coin</button>
+    </form>
+  </body>
+</html>
